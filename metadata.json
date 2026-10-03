@@ -1,0 +1,6 @@
+{
+  "name": "Relu Data Extraction Challenge Hub",
+  "description": "Production data extraction, validation, and analytics dashboard for Disney Cruise & Ingredients Network challenges.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

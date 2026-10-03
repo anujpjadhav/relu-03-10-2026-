@@ -1,0 +1,42 @@
+{
+  "candidate": {
+    "name": "Anuj Jadhav",
+    "email": "anujpjadhav5@gmail.com",
+    "role": "Data Extraction Engineer (FTE)",
+    "company": "Relu Consultancy"
+  },
+  "disney": {
+    "raw_records": 171,
+    "duplicates_removed": 60,
+    "invalid_records_removed": 0,
+    "final_records": 111,
+    "total_pages_scraped": 35,
+    "pacific_destination_cruises": 2,
+    "total_cruises": 111,
+    "holiday_cruises": 26,
+    "cruises_with_more_than_2_dates": 48,
+    "miami_departures": 0,
+    "london_departures": 7,
+    "miami_plus_london_combined": 7
+  },
+  "ingredients": {
+    "raw_records": 150,
+    "duplicates_removed": 0,
+    "invalid_records_removed": 0,
+    "final_records": 150,
+    "total_ingredients_products": 2704,
+    "total_ingredients_taxonomy": 552,
+    "total_finished_products": 820,
+    "total_finished_products_taxonomy": 33,
+    "companies_with_herbs_and_spices": 399,
+    "companies_with_physical_delivery_formats": 764,
+    "companies_in_cognitive_and_mental_health": 587
+  },
+  "data_quality": {
+    "disney_empty_fields": 0,
+    "ingredients_empty_fields": 0,
+    "disney_duplicate_final": 0,
+    "ingredients_duplicate_final": 0,
+    "completeness_score": 100.0
+  }
+}
