@@ -189,7 +189,17 @@ output/ingredients_network_raw.csv
           </div>
 
           {/* Quick Actions */}
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2.5">
+            <a
+              href="https://anujpjadhav.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold rounded-lg bg-teal-500/10 hover:bg-teal-500/20 text-teal-300 border border-teal-500/30 transition shadow-sm"
+              title="Open Live Deployed Project"
+            >
+              <ExternalLink className="w-3.5 h-3.5 text-teal-400" />
+              <span className="hidden sm:inline">Live Deployment:</span> anujpjadhav.netlify.app
+            </a>
             <button
               onClick={copyTerminalOutput}
               className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition"
@@ -197,7 +207,7 @@ output/ingredients_network_raw.csv
               {copied ? <CheckCircle2 className="w-4 h-4 text-emerald-400" /> : <Copy className="w-4 h-4 text-slate-400" />}
               {copied ? 'Copied Terminal Format!' : 'Copy Terminal Summary'}
             </button>
-            <div className="hidden sm:flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/30 px-3 py-1 rounded-full text-xs text-emerald-400 font-medium">
+            <div className="hidden lg:flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/30 px-3 py-1 rounded-full text-xs text-emerald-400 font-medium">
               <ShieldCheck className="w-4 h-4 text-emerald-400" />
               100% Quality Verified
             </div>
@@ -946,8 +956,19 @@ output/ingredients_network_raw.csv
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-slate-900 bg-slate-950 py-4 px-4 lg:px-8 text-center text-xs text-slate-500">
-        Relu Consultancy Data Extraction Challenge • Candidate: anujpjadhav5@gmail.com • Built with Python & React
+      <footer className="border-t border-slate-900 bg-slate-950 py-4 px-4 lg:px-8 text-xs text-slate-500">
+        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left">
+          <span>Relu Consultancy Data Extraction Challenge • Candidate: anujpjadhav5@gmail.com • Built with Python & React</span>
+          <a
+            href="https://anujpjadhav.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-cyan-400 hover:text-cyan-300 font-medium inline-flex items-center gap-1.5 transition"
+          >
+            Live Production Dashboard: https://anujpjadhav.netlify.app/
+            <ExternalLink className="w-3.5 h-3.5" />
+          </a>
+        </div>
       </footer>
     </div>
   );
