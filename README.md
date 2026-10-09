@@ -272,6 +272,6 @@ output/ingredients_network_raw.csv
 
 * **Candidate**: Anuj Jadhav
 * **Email**: [anujpjadhav5@gmail.com](mailto:anujpjadhav5@gmail.com)
-* **LinkedIn**: https://www.linkedin.com/in/anujpjadhav
-* **Live Project**: [https://anujpjadhav.netlify.app/](https://anujpjadhav.netlify.app/)
+* **LinkedIn**: linkedin.com/in/anujpjadhav
+* **Live Project**: [anujpjadhav.netlify.app/](https://anujpjadhav.netlify.app/)
 * **Role**: Data Extraction Engineer (FTE) — Relu Consultancy
